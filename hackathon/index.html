@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Aadhar Regisration Form </title>
+</head>
+
+<body>
+    <div class="container">
+        <header>AADHAR Registration</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Birth</label>
+                            <input type="date" placeholder="Enter birth date"required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Enter your email / Optional">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mobile Number</label>
+                            <input type="number" placeholder="Enter mobile number" required>
+                        </div>
+
+                        <div class="input-field" required>
+                            <label>Gender</label>
+                            <select>
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Age</label>
+                            <input type="Number" placeholder="Enter your Age" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">Family Details</span>
+
+                    <div class="fields">
+                        <div class="input-field" required>
+                            <label>Family Member</label>
+                            <select>
+                                <option disabled selected>Select Member</option>
+                                <option>Father</option>
+                                <option>Mother</option>
+                                <option>Gaurdian</option>
+                                <option>Husband</option>
+                                <option>Wife</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field" required>
+                            <label>Aadhar Number</label>
+                            <input type="number" placeholder="Enter Aadhar number">
+                        </div>
+
+
+                        <div class="input-field" required>
+                            <label>Issued State</label>
+                            <select>
+                                <option disabled selected>Select State</option>
+                                <option>Gujarat</option>
+                                <option>Maharastra</option>
+                                <option>Rajasthan</option>
+                                <option>Punjab</option>
+                                <option>Bihar</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field" >
+                            <label>Issued Date</label>
+                            <input type="date" placeholder="Enter your issued date">
+                        </div>
+
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">Next</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="form second">
+                <div class="details address">
+                    <span class="title">Address Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Address Type</label>
+                            <input type="text" placeholder="Permanent or Temporary" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>House No./Bldg./Apt.</label>
+                            <input type="text" placeholder="Enter House No./Bldg./Apt. " required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Area/Locality/sector</label>
+                            <input type="text" placeholder="Enter your Area/Locality/sector " required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Village/Town/City</label>
+                            <input type="text" placeholder="Enter your Village/Town/City " required> 
+                        </div>
+
+                        <div class="input-field">
+                            <label>District</label>
+                            <input type="text" placeholder="Enter block District" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>PIN CODE</label>
+                            <input type="number" placeholder="PIN CODE" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details family">
+                    <span class="title" >I have no objection to the UIDAI sharing information provided by me to the UIDAI with agencies
+                        engaged in delivery of welfare services.</span>
+                        
+                            <input type="radio" class="check" id="check1" name="c1" value="yes" required>
+                            <label for="check2">Yes</label>
+                        
+                            <input type="radio" class="check" id="check2" name="c1" value="no" required>
+                            <label for="check2">No</label>
+                            <br>
+                            <br>
+                            
+                            <hr>
+                            <span class="title">I confirm that information provided by me to UIDAI and the information contained herein is my own and is true,correct and accurate</span>
+                        
+
+                    
+                    </div>
+
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Back</span>
+                        </div>
+
+                        <button class="sumbit">
+                            <span class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
